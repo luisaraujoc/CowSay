@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.1" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
@@ -6,15 +6,14 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/icon"
+        android:icon="@drawable/cow"
         android:label="CowSay"
         android:supportsRtl="true"
         android:theme="@style/Theme.CowSayJava"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="com.rakkii.CowSay.MainActivity"
             android:exported="true"
-            android:label="CowSay"
             android:theme="@style/Theme.AppCompat.Light">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
